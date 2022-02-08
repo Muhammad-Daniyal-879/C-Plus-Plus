@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int A,B,C;
+  cout<<"Enter your 1st number"<<endl;
+  cin>>A;
+   cout<<"Enter your 2nd number"<<endl;
+  cin>>B;
+  C=A;
+  A=B;
+  B=C;
+  cout<<"1st number becomes"<<A<<endl;
+  cout<<"2nd number becomes"<<B<<endl;
+  return 0;
+}
