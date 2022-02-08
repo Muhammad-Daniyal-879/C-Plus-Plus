@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+  Int A,L,r;
+  Float C,P;
+  cout<<"enter length or breath of the square"<<endl;
+  cin>>L;
+  A=L*L;
+  cout<<"area of the square is = "<<A<<endl;
+  cout<<"enter radius of the circle"<<endl;
+  cin>>r;
+  P=3.142;
+  C=r*r*P;
+  cout<<"circumference of circle is = "<<C<<endl;
+  return 0;
+}
