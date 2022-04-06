@@ -1,0 +1,28 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main ()
+{
+	int a;
+	string D,AD;
+	D="cosx";
+	AD="-cosx";
+	cout<<"following program shows the derivative and anti derivative of sin x"<<endl;
+	cout<<"for derivative input 1 "<<endl;
+	cout<<"for anti derivative input 2 "<<endl;
+	cin>>a;
+	if (a==1)
+	{
+		cout<<"the derivative of sin x is = "<<D<<endl;
+	}
+	else if (a==2)
+	{
+		cout<<"the anti derivative of sin x is = "<<AD<<endl;
+	}
+	else
+	{
+		cout<<"error"<<endl;
+	}
+	return 0;
+	
+}
